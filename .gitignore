@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Configuración local privada (secretos — nunca versionar)
+config.ini
+txt/broker_privado.ini
+data/broker_privado.json
+mosquitto-expo.local.conf
+mosquitto-expo.passwd
+firmware/**/config.h
+firmware/**/secrets.h
+firmware/**/*.passwd
+
+# Respaldos de edición (.backup_YYYYMMDD)
+*.backup_*
+
+# Qt / escritorio / logs
+*.log
+
+# Build / empaquetado (no versionar artefactos)
+build/
+dist/
+*.spec
+*.exe
+*.msi
